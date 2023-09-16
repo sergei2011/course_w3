@@ -2,7 +2,6 @@ import json
 import operator
 import datetime
 
-
 def open_list(filename):
     """открываем файл с транзакциями"""
     with open(filename, 'r', encoding='utf-8') as file:
