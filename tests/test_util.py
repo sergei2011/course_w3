@@ -1,8 +1,8 @@
 from src.util import open_list, sort_execut, sort_list, five_last, time, from_out, to_in
 
-#def test_open_list():
-   # q = open_list('operat.json')
-   # assert isinstance (q, list)
+def test_open_list():
+    q = open_list('../operations.json')
+    assert isinstance (q, list)
 
 
 def test_sort_execut():
